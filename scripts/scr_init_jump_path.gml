@@ -1,0 +1,191 @@
+jump_path[1,VERTICAL_DIRECTION] = UP;
+jump_path[1,HORIZONTAL_DIRECTION] = false;
+
+jump_path[2,VERTICAL_DIRECTION] = UP;
+jump_path[2,HORIZONTAL_DIRECTION] = false;
+
+jump_path[3,VERTICAL_DIRECTION] = UP;
+jump_path[3,HORIZONTAL_DIRECTION] = false;
+
+jump_path[4,VERTICAL_DIRECTION] = UP;
+jump_path[4,HORIZONTAL_DIRECTION] = true;
+
+jump_path[5,VERTICAL_DIRECTION] = UP;
+jump_path[5,HORIZONTAL_DIRECTION] = true;
+
+jump_path[6,VERTICAL_DIRECTION] = UP;
+jump_path[6,HORIZONTAL_DIRECTION] = true;
+
+jump_path[7,VERTICAL_DIRECTION] = UP;
+jump_path[7,HORIZONTAL_DIRECTION] = true;
+
+jump_path[8,VERTICAL_DIRECTION] = UP;
+jump_path[8,HORIZONTAL_DIRECTION] = true;
+
+jump_path[9,VERTICAL_DIRECTION] = UP;
+jump_path[9,HORIZONTAL_DIRECTION] = true;
+
+jump_path[10,VERTICAL_DIRECTION] = UP;
+jump_path[10,HORIZONTAL_DIRECTION] = true;
+
+jump_path[11,VERTICAL_DIRECTION] = UP;
+jump_path[11,HORIZONTAL_DIRECTION] = true;
+
+jump_path[12,VERTICAL_DIRECTION] = UP;
+jump_path[12,HORIZONTAL_DIRECTION] = true;
+
+jump_path[13,VERTICAL_DIRECTION] = UP;
+jump_path[13,HORIZONTAL_DIRECTION] = true;
+
+jump_path[14,VERTICAL_DIRECTION] = UP;
+jump_path[14,HORIZONTAL_DIRECTION] = true;
+
+jump_path[15,VERTICAL_DIRECTION] = UP;
+jump_path[15,HORIZONTAL_DIRECTION] = true;
+
+jump_path[16,VERTICAL_DIRECTION] = UP;
+jump_path[16,HORIZONTAL_DIRECTION] = true;
+
+jump_path[17,VERTICAL_DIRECTION] = UP;
+jump_path[17,HORIZONTAL_DIRECTION] = true;
+
+jump_path[18,VERTICAL_DIRECTION] = UP;
+jump_path[18,HORIZONTAL_DIRECTION] = true;
+
+jump_path[19,VERTICAL_DIRECTION] = UP;
+jump_path[19,HORIZONTAL_DIRECTION] = true;
+
+jump_path[20,VERTICAL_DIRECTION] = UP;
+jump_path[20,HORIZONTAL_DIRECTION] = true;
+
+jump_path[21,VERTICAL_DIRECTION] = UP;
+jump_path[21,HORIZONTAL_DIRECTION] = true;
+
+jump_path[22,VERTICAL_DIRECTION] = noone;
+jump_path[22,HORIZONTAL_DIRECTION] = true;
+
+jump_path[23,VERTICAL_DIRECTION] = noone;
+jump_path[23,HORIZONTAL_DIRECTION] = true;
+
+jump_path[24,VERTICAL_DIRECTION] = noone;
+jump_path[24,HORIZONTAL_DIRECTION] = true;
+
+jump_path[25,VERTICAL_DIRECTION] = noone;
+jump_path[25,HORIZONTAL_DIRECTION] = true;
+
+jump_path[26,VERTICAL_DIRECTION] = noone;
+jump_path[26,HORIZONTAL_DIRECTION] = true;
+
+jump_path[27,VERTICAL_DIRECTION] = noone;
+jump_path[27,HORIZONTAL_DIRECTION] = true;
+
+jump_path[28,VERTICAL_DIRECTION] = DOWN;
+jump_path[28,HORIZONTAL_DIRECTION] = true;
+
+jump_path[29,VERTICAL_DIRECTION] = DOWN;
+jump_path[29,HORIZONTAL_DIRECTION] = true;
+
+jump_path[30,VERTICAL_DIRECTION] = DOWN;
+jump_path[30,HORIZONTAL_DIRECTION] = true;
+
+jump_path[31,VERTICAL_DIRECTION] = DOWN;
+jump_path[31,HORIZONTAL_DIRECTION] = true;
+
+jump_path[32,VERTICAL_DIRECTION] = DOWN;
+jump_path[32,HORIZONTAL_DIRECTION] = true;
+
+jump_path[33,VERTICAL_DIRECTION] = DOWN;
+jump_path[33,HORIZONTAL_DIRECTION] = true;
+
+jump_path[34,VERTICAL_DIRECTION] = DOWN;
+jump_path[34,HORIZONTAL_DIRECTION] = true;
+
+jump_path[35,VERTICAL_DIRECTION] = DOWN;
+jump_path[35,HORIZONTAL_DIRECTION] = true;
+
+jump_path[36,VERTICAL_DIRECTION] = DOWN;
+jump_path[36,HORIZONTAL_DIRECTION] = true;
+
+jump_path[37,VERTICAL_DIRECTION] = DOWN;
+jump_path[37,HORIZONTAL_DIRECTION] = true;
+
+jump_path[38,VERTICAL_DIRECTION] = DOWN;
+jump_path[38,HORIZONTAL_DIRECTION] = true;
+
+jump_path[39,VERTICAL_DIRECTION] = DOWN;
+jump_path[39,HORIZONTAL_DIRECTION] = true;
+
+jump_path[40,VERTICAL_DIRECTION] = DOWN;
+jump_path[40,HORIZONTAL_DIRECTION] = true;
+
+jump_path[41,VERTICAL_DIRECTION] = DOWN;
+jump_path[41,HORIZONTAL_DIRECTION] = true;
+
+jump_path[42,VERTICAL_DIRECTION] = DOWN;
+jump_path[42,HORIZONTAL_DIRECTION] = true;
+
+jump_path[43,VERTICAL_DIRECTION] = DOWN;
+jump_path[43,HORIZONTAL_DIRECTION] = true;
+
+jump_path[44,VERTICAL_DIRECTION] = DOWN;
+jump_path[44,HORIZONTAL_DIRECTION] = true;
+
+jump_path[45,VERTICAL_DIRECTION] = DOWN;
+jump_path[45,HORIZONTAL_DIRECTION] = true;
+
+jump_path[46,VERTICAL_DIRECTION] = DOWN;
+jump_path[46,HORIZONTAL_DIRECTION] = false;
+
+jump_path[47,VERTICAL_DIRECTION] = DOWN;
+jump_path[47,HORIZONTAL_DIRECTION] = false;
+
+jump_path[48,VERTICAL_DIRECTION] = DOWN;
+jump_path[48,HORIZONTAL_DIRECTION] = false;
+
+jump_path[49,VERTICAL_DIRECTION] = DOWN;
+jump_path[49,HORIZONTAL_DIRECTION] = false;
+
+jump_path[50,VERTICAL_DIRECTION] = DOWN;
+jump_path[50,HORIZONTAL_DIRECTION] = false;
+
+jump_path[51,VERTICAL_DIRECTION] = DOWN;
+jump_path[51,HORIZONTAL_DIRECTION] = false;
+
+jump_path[52,VERTICAL_DIRECTION] = DOWN;
+jump_path[52,HORIZONTAL_DIRECTION] = true;
+
+jump_path[53,VERTICAL_DIRECTION] = DOWN;
+jump_path[53,HORIZONTAL_DIRECTION] = false;
+
+jump_path[54,VERTICAL_DIRECTION] = DOWN;
+jump_path[54,HORIZONTAL_DIRECTION] = false;
+
+jump_path[55,VERTICAL_DIRECTION] = DOWN;
+jump_path[55,HORIZONTAL_DIRECTION] = false;
+
+jump_path[56,VERTICAL_DIRECTION] = DOWN;
+jump_path[56,HORIZONTAL_DIRECTION] = false;
+
+jump_path[57,VERTICAL_DIRECTION] = DOWN;
+jump_path[57,HORIZONTAL_DIRECTION] = false;
+
+jump_path[58,VERTICAL_DIRECTION] = DOWN;
+jump_path[58,HORIZONTAL_DIRECTION] = false;
+
+jump_path[59,VERTICAL_DIRECTION] = DOWN;
+jump_path[59,HORIZONTAL_DIRECTION] = false;
+
+jump_path[60,VERTICAL_DIRECTION] = DOWN;
+jump_path[60,HORIZONTAL_DIRECTION] = true;
+
+jump_path[61,VERTICAL_DIRECTION] = DOWN;
+jump_path[61,HORIZONTAL_DIRECTION] = false;
+
+jump_path[62,VERTICAL_DIRECTION] = DOWN;
+jump_path[62,HORIZONTAL_DIRECTION] = false;
+
+jump_path[63,VERTICAL_DIRECTION] = DOWN;
+jump_path[63,HORIZONTAL_DIRECTION] = false;
+
+jump_path[64,VERTICAL_DIRECTION] = DOWN;
+jump_path[64,HORIZONTAL_DIRECTION] = false;
