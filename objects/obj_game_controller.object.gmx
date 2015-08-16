@@ -61,10 +61,13 @@
     // (This step was created, as the 'with' statement is not working directly after the activate.)
     case MONSTERS_ACTIVATED :
 
-        // Start the music
-        audio_play_sound(snd_black_and_white, 10, true);
-        // Play the sound
-        audio_play_sound(snd_start_level, 10, false);
+        // If we start a new game, start the music
+        if !audio_is_playing(snd_black_and_white)
+        {
+            audio_play_sound(snd_black_and_white, 10, true);
+            // Play the sound
+            audio_play_sound(snd_start_level, 10, false);
+        }
 
         // Display the 'explosions' before displaying the monsters
         with (level_info[level,MONSTERS_PARENT])
