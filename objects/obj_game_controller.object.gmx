@@ -43,7 +43,7 @@
         game_state = DISPLAYING_LEVEL;
         
         // Play the sound
-        //sga_PlayFX(global.snd_display_level);
+        audio_play_sound(snd_display_level, 10, false);
        
         // Display gradually the room
         instance_create(0, 0, obj_display_level);
@@ -62,9 +62,9 @@
     case MONSTERS_ACTIVATED :
 
         // Start the music
-        //eid = sga_TrackPlay( -1, "Black And White.ogg", 1, 0 );
+        audio_play_sound(snd_black_and_white, 10, true);
         // Play the sound
-        //sga_PlayFX(global.snd_start_level);
+        audio_play_sound(snd_start_level, 10, false);
 
         // Display the 'explosions' before displaying the monsters
         with (level_info[level,MONSTERS_PARENT])
@@ -100,55 +100,12 @@
     // The player starts to die, display the animation    
     case KILL_PLAYER :
     {
+        audio_stop_all();
         scr_kill_player();
         break;
     }
     
 }
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="7" enumb="3">
-      <action>
-        <libid>1</libid>
-        <id>605</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>0</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>Free resources from sound system</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>sga_DestroyEmitter( eid );
-sga_Free();
 </string>
           </argument>
         </arguments>

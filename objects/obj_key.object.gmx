@@ -48,7 +48,7 @@
             <string>instance_deactivate_object(self);
 
 // Play the sound
-sga_PlayFX(global.snd_key);
+audio_play_sound(snd_key, 10, false);
 
 // Increase the score
 score += 200;

@@ -152,8 +152,6 @@ switch(step)
         // On every new level, the user gets a 'bonus man'
         bonus_man = true;
         
-        // Stop the music
-        sga_Stop(eid);
         game_state = LEVEL_DISPLAYED;
         break;
             

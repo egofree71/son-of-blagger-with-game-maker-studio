@@ -3,7 +3,7 @@
 game_state = PLAYER_DYING;
 
 // Play the sound
-sga_PlayFX(global.snd_dying);
+audio_play_sound(snd_player_dying, 10, false);
 
 // If there is the 'bonus man', remove it
 if (bonus_man = true)

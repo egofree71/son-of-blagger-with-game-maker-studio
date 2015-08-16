@@ -3,146 +3,15 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <datafiles number="10" name="datafiles">
-    <datafile>
-      <name>Black And White.ogg</name>
-      <exists>-1</exists>
-      <size>1792461</size>
-      <exportAction>2</exportAction>
-      <exportDir></exportDir>
-      <overwrite>0</overwrite>
-      <freeData>-1</freeData>
-      <removeEnd>0</removeEnd>
-      <store>0</store>
-      <ConfigOptions>
-        <Config name="Default">
-          <CopyToMask>9223372036854775807</CopyToMask>
-        </Config>
-      </ConfigOptions>
-      <filename></filename>
-    </datafile>
-    <datafile>
-      <name>Key.ogg</name>
-      <exists>-1</exists>
-      <size>119538</size>
-      <exportAction>2</exportAction>
-      <exportDir></exportDir>
-      <overwrite>0</overwrite>
-      <freeData>-1</freeData>
-      <removeEnd>0</removeEnd>
-      <store>0</store>
-      <ConfigOptions>
-        <Config name="Default">
-          <CopyToMask>9223372036854775807</CopyToMask>
-        </Config>
-      </ConfigOptions>
-      <filename></filename>
-    </datafile>
-    <datafile>
-      <name>OpenAL32.dll</name>
-      <exists>-1</exists>
-      <size>109080</size>
-      <exportAction>2</exportAction>
-      <exportDir></exportDir>
-      <overwrite>0</overwrite>
-      <freeData>-1</freeData>
-      <removeEnd>0</removeEnd>
-      <store>0</store>
-      <ConfigOptions>
-        <Config name="Default">
-          <CopyToMask>9223372036854775807</CopyToMask>
-        </Config>
-      </ConfigOptions>
-      <filename></filename>
-    </datafile>
-    <datafile>
-      <name>SGAudio.dll</name>
-      <exists>-1</exists>
-      <size>310272</size>
-      <exportAction>2</exportAction>
-      <exportDir></exportDir>
-      <overwrite>0</overwrite>
-      <freeData>-1</freeData>
-      <removeEnd>0</removeEnd>
-      <store>0</store>
-      <ConfigOptions>
-        <Config name="Default">
-          <CopyToMask>9223372036854775807</CopyToMask>
-        </Config>
-      </ConfigOptions>
-      <filename></filename>
-    </datafile>
-    <datafile>
-      <name>wrap_oal.dll</name>
-      <exists>-1</exists>
-      <size>444952</size>
-      <exportAction>2</exportAction>
-      <exportDir></exportDir>
-      <overwrite>0</overwrite>
-      <freeData>-1</freeData>
-      <removeEnd>0</removeEnd>
-      <store>0</store>
-      <ConfigOptions>
-        <Config name="Default">
-          <CopyToMask>9223372036854775807</CopyToMask>
-        </Config>
-      </ConfigOptions>
-      <filename></filename>
-    </datafile>
-    <datafile>
-      <name>Display_level.ogg</name>
-      <exists>-1</exists>
-      <size>33103</size>
-      <exportAction>2</exportAction>
-      <exportDir></exportDir>
-      <overwrite>0</overwrite>
-      <freeData>-1</freeData>
-      <removeEnd>0</removeEnd>
-      <store>0</store>
-      <ConfigOptions>
-        <Config name="Default">
-          <CopyToMask>9223372036854775807</CopyToMask>
-        </Config>
-      </ConfigOptions>
-      <filename></filename>
-    </datafile>
-    <datafile>
-      <name>Dying.ogg</name>
-      <exists>-1</exists>
-      <size>20644</size>
-      <exportAction>2</exportAction>
-      <exportDir></exportDir>
-      <overwrite>0</overwrite>
-      <freeData>-1</freeData>
-      <removeEnd>0</removeEnd>
-      <store>0</store>
-      <ConfigOptions>
-        <Config name="Default">
-          <CopyToMask>9223372036854775807</CopyToMask>
-        </Config>
-      </ConfigOptions>
-      <filename></filename>
-    </datafile>
-    <datafile>
-      <name>Start_level.ogg</name>
-      <exists>-1</exists>
-      <size>36958</size>
-      <exportAction>2</exportAction>
-      <exportDir></exportDir>
-      <overwrite>0</overwrite>
-      <freeData>-1</freeData>
-      <removeEnd>0</removeEnd>
-      <store>0</store>
-      <ConfigOptions>
-        <Config name="Default">
-          <CopyToMask>9223372036854775807</CopyToMask>
-        </Config>
-      </ConfigOptions>
-      <filename></filename>
-    </datafile>
-  </datafiles>
+  <datafiles number="10" name="datafiles"/>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_key</sound>
+    <sound>sound\snd_player_dying</sound>
+    <sound>sound\snd_display_level</sound>
+    <sound>sound\snd_start_level</sound>
+    <sound>sound\snd_black_and_white</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="blagger">
       <sprite>sprites\spr_blagger_right</sprite>
@@ -278,37 +147,7 @@
     <script>scripts\scr_init_game.gml</script>
     <script>scripts\scr_init_jump_path.gml</script>
     <script>scripts\scr_init_level_info.gml</script>
-    <script>scripts\scr_init_sound_system.gml</script>
     <script>scripts\scr_init_title.gml</script>
-    <scripts name="SGAudio">
-      <script>scripts\sga_Create3DFX.gml</script>
-      <script>scripts\sga_CreateEmitter.gml</script>
-      <script>scripts\sga_CreateFX.gml</script>
-      <script>scripts\sga_DestroyEmitter.gml</script>
-      <script>scripts\sga_FadeVol.gml</script>
-      <script>scripts\sga_Free.gml</script>
-      <script>scripts\sga_GetGroupVol.gml</script>
-      <script>scripts\sga_GetType.gml</script>
-      <script>scripts\sga_GetVol.gml</script>
-      <script>scripts\sga_Init.gml</script>
-      <script>scripts\sga_IsPlaying.gml</script>
-      <script>scripts\sga_Pause.gml</script>
-      <script>scripts\sga_Play.gml</script>
-      <script>scripts\sga_Play3DFX.gml</script>
-      <script>scripts\sga_PlayFX.gml</script>
-      <script>scripts\sga_Rewind.gml</script>
-      <script>scripts\sga_Set3DMode.gml</script>
-      <script>scripts\sga_SetCamDir.gml</script>
-      <script>scripts\sga_SetCamPos.gml</script>
-      <script>scripts\sga_SetDistFactor.gml</script>
-      <script>scripts\sga_SetGroupVol.gml</script>
-      <script>scripts\sga_SetLooping.gml</script>
-      <script>scripts\sga_SetPosition.gml</script>
-      <script>scripts\sga_SetType.gml</script>
-      <script>scripts\sga_SetVol.gml</script>
-      <script>scripts\sga_Stop.gml</script>
-      <script>scripts\sga_TrackPlay.gml</script>
-    </scripts>
     <scripts name="game_controller">
       <script>scripts\scr_init_variables.gml</script>
       <script>scripts\scr_end_level.gml</script>
