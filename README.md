@@ -16,4 +16,4 @@ The player can't make 'double jumps', except if he is on a slide. Beyond a given
 
 **Download the windows installer :**
 
-https://github.com/egofree71/son-of-blagger-with-game-maker-studio/blob/master/son_of_blagger.exe
+https://github.com/egofree71/son-of-blagger-with-game-maker-studio/raw/master/son_of_blagger.exe
